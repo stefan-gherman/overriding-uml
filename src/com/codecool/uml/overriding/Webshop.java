@@ -25,5 +25,16 @@ public class Webshop {
         System.out.println(order.toString());
         System.out.println(order2.toString());
 
+        Order order3 = new Order();
+        Order order4 = new Order();
+
+        System.out.println(order3.toString());
+        System.out.println(order4.toString());
+
+        checkout.process(order3);
+        pay.process(order4);
+
+        System.out.println(order3.toString());
+        System.out.println(order4.toString());
     }
 }

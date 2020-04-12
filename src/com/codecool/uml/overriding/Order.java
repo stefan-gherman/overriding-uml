@@ -23,7 +23,7 @@ public class Order implements Orderable {
 
     @Override
     public boolean pay() {
-        this.status = "payed";
+        this.status = "paid";
         return true;
     }
 
